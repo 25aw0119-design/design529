@@ -355,7 +355,6 @@ body::-webkit-scrollbar {
   display: flex;
   justify-content: center;
   align-items: end;
-  gap: 50px;
 }
 
 .subcopy {
@@ -395,8 +394,8 @@ body::-webkit-scrollbar {
 }
 
 .section {
-  max-width: 1200px;
 margin: 200px auto 100px;
+  max-width: 1200px;
   box-sizing: border-box;
 
 }
