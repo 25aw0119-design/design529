@@ -394,7 +394,7 @@ body::-webkit-scrollbar {
 }
 
 .section {
-margin: 200px auto 100px;
+  margin: 200px auto 100px;
   max-width: 1200px;
   box-sizing: border-box;
 
@@ -579,7 +579,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-   padding: 50px 0;
+  padding: 50px 0;
 }
 
 .footer-nav {
@@ -626,10 +626,12 @@ h3 {
 .footer-nav a:hover::after {
   transform: scaleX(1);
 }
+
 .copyright {
   padding: 10px;
-text-align: center;
+  text-align: center;
 }
+
 .social-text p {
   color: transparent;
   -webkit-text-stroke-width: clamp(2px, 0.5vw, 8px);
@@ -654,7 +656,7 @@ text-align: center;
   font-style: normal;
   font-size: clamp(12px, 2vw, 14px);
   font-weight: 400;
-  letter-spacing:2px;
+  letter-spacing: 2px;
   text-decoration: none;
   position: relative;
   border: 1px solid #7b2525;
@@ -682,8 +684,8 @@ text-align: center;
 
 .about-image {
   max-width: 100%;
- width: 50%;
- border-radius: 50px 0;
+  width: 50%;
+  border-radius: 50px 0;
 
 }
 
@@ -1196,7 +1198,7 @@ h4 {
   }
 
   .strong-title {
-font-weight: 800;
+    font-weight: 800;
     color: #973406;
     padding: 5px 20px;
     border-radius: 5px;
